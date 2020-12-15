@@ -3,6 +3,7 @@ import baseUrl from '../../../../HELPERS/baseUrl'
 import {useRouter} from 'next/router'
 import ReactMarkdown, { renderers } from 'react-markdown'
 const ReactMarkdownWithHtml = require('react-markdown/with-html')
+import gfm from 'remark-gfm'
 
 
 
@@ -24,7 +25,7 @@ const{branch , year , course , post } = router.query;
             
                                     return(
                                         <>
-                                        <div className="bodu">
+                                        <div >
                                             <p className="postTitle" >{po.title}<p className="time">{po.date}</p>
                                             <div>
                                                 <Link href={`https://api.whatsapp.com/send?text=${po.title}igni-us.vercel.app/${po._id}`}><i className="fa fa-whatsapp icon" style={{fontSize:"20px"}} aria-hidden="true"></i></Link>
@@ -34,7 +35,7 @@ const{branch , year , course , post } = router.query;
                                             
                                             <div className="postdetail">
                                             {/* <ReactMarkdown className="postInfo">{input}</ReactMarkdown> */}
-                                            <ReactMarkdownWithHtml className="postInfo"  children={input} allowDangerousHtml />
+                                            <ReactMarkdownWithHtml className="postInfo" plugins={[gfm]} children={input} allowDangerousHtml />
                                             <div className="description" >
                                             <p style={{fontSize:"15px"}}>contributor</p>
                                             <img className="photo" src={po.personImg}/><br/><br/>
@@ -60,7 +61,7 @@ const{branch , year , course , post } = router.query;
 
     return(
         <>
-            <div style={{ minHeight:"100vh"}}>
+            <div style={{ paddingTop:"100px" , minHeight:"100vh"}}>
                 {branchList}
             </div>
             

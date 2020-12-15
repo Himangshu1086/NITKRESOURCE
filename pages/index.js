@@ -36,7 +36,7 @@ const branchList = nitks.map(function(nitk){
     return(
 
          
-        <div   style={{ backgroundSize:"cover" ,paddingTop:"180px", minHeight:"100vh"}}>
+        <div   style={{ backgroundSize:"cover" ,paddingTop:"120px",paddingBottom:"60px", minHeight:"100vh"}}>
         <div style={{display:"flex" , flexWrap:"wrap"}}>
          {branchList}
         </div>

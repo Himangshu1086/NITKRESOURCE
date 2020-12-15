@@ -15,7 +15,7 @@ const Footer =()=>{
                     <pre>Terms and Condition  Privacy Policy</pre>
             </div>
                 <div className="copyRight">
-                <p >&copy; igni-us.vercel.app | Designed by HJB@1086
+                <p >&copy; nitkresource.vercel.app | Designed by HJB@1086
                 <Link href="/link/login"><span className="AdminBtn">Admin</span></Link>
                 </p>
                 </div>

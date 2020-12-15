@@ -41,8 +41,8 @@ const NITK = ({courses})=>{
 
 
     return(
-        <div  style={{  backgroundSize:"cover" ,paddingTop:"240px", minHeight:"100vh"}}>
-        <div  style={{textAlign:"center",padding:"20px",color:"#ff8080" ,boxShadow:"0px 0px 14px black", background:"#ffe6e6" , margin:" 10px 30px"}}><h3>LIST OF COURSES IN THE SECOND YEAR : </h3></div>
+        <div  style={{  backgroundSize:"cover" ,paddingTop:"120px",paddingBottom:"60px", minHeight:"100vh"}}>
+        <div  style={{textAlign:"center",padding:"10px 10px",color:"#ff8080" ,boxShadow:"0px 0px 14px black", background:"#ffe6e6" , margin:" 20px 30px" ,fontSize:"20px"}}><p>LIST OF COURSES IN THE SECOND YEAR : </p></div>
         <div style={{display:"flex" , flexWrap:"wrap"}}>
         {branchList}
         </div>

@@ -46,9 +46,9 @@ const branchList = years.map((year , i )=>{
     return(
 
          
-        <div style={{ backgroundSize:"cover" ,paddingTop:"180px", minHeight:"100vh"}}>
+        <div style={{ backgroundSize:"cover" ,paddingTop:"120px",paddingBottom:"60px", minHeight:"100vh"}}>
 
-        <p style={{textAlign:"center",color:"#ff8080",boxShadow:"0px 0px 14px black", margin:"0px 50px" ,padding:"10px",background:"#ffe6e6",fontWeight:"bolder",fontSize:"30px"}}>SELECT THE YEAR TO VIEW THE COURSES :</p>
+        <p style={{textAlign:"center",color:"#ff8080",boxShadow:"0px 0px 14px black", margin:"0px 50px" ,padding:"10px",background:"#ffe6e6",fontWeight:"bolder",fontSize:"20px"}}>SELECT THE YEAR TO VIEW THE COURSES :</p>
         
         <div style={{display:"flex" , flexWrap:"wrap" ,paddingTop:"50px"}}>
          {branchList}
