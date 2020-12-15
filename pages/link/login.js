@@ -30,6 +30,7 @@ const Login =()=>{
             console.log(res2.error)
         }else{
             cookie.set('token' , res.token)
+            alert("logged In successfully")
             router.push("/link/ADMIN");
 
         }

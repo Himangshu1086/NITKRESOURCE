@@ -41,7 +41,7 @@ const Questions = ({questions})=>{
     
         return(
             
-<div style={{minHeight:"100vh"}}>
+<div >
             <div  style={{background:"lightblue" , textAlign:"center" , margin:"30px 30px" ,fontFamily:"Allerta Stencil" , }} >
                  
                     <p>NAME : {question.userName}<br/>
@@ -62,16 +62,7 @@ const Questions = ({questions})=>{
     
     
     return(
-        <div className="bodu">
-        {admin ?
-                <>
-                    <div style={{marginTop:"120px" }}>
-                    </div>
-                </>
-                :
-                <>
-            </> 
-            }
+        <div style={{paddingTop:"160px",minHeight:"100vh" , backgroundSize:"cover"}}>
             {allQuestions}
         </div>
     )

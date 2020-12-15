@@ -3,14 +3,14 @@ import Link from 'next/link'
 const Admin = ()=>{
     return(
         <div style={{minHeight:"100vh"}}>
-<div style={{paddingTop:"320px" }}></div>
+<div style={{paddingTop:"150px" }}></div>
 <div style={{display:"flex",flexWrap:"wrap" , justifyContent:"center"}}>
                                
 
                                 <Link href ="/link/nitkCoursePost" > 
                                 <div className="branch-card" style={{border:"solid 2px red",height:"230px"}}>
                                     <div className="branch-photo-and-name">
-                                        <p style={{fontSize:"30px" , paddingTop:"60px"}}>CREATE COURSE POST FOR NITK </p>
+                                        <p style={{fontSize:"20px" , paddingTop:"30px"}}>CREATE COURSE POST FOR NITK </p>
                                     </div>   
                                 </div>
                                 </Link>
