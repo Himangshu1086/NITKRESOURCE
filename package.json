@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
     "next": "^10.0.0",
+    "nookies": "^2.5.0",
+    "nprogress": "^0.2.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-markdown": "^5.0.3",
+    "remark-gfm": "^1.0.0"
   }
 }
